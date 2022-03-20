@@ -5,6 +5,7 @@ import pandas, csv
 import sqlalchemy
 from sqlalchemy import MetaData, Table, Column, Integer, String
 
+
 def import_db(csv: str):
     engine = sqlalchemy.create_engine('postgresql://postgres:postgres@localhost:5432/postgres', echo=True)
 
@@ -34,4 +35,3 @@ if len(sys.argv) > 1:
 
 elif len(sys.argv) == 0:
     print('Proszę podaj ścieżkę do pliku z dumpem')
-
