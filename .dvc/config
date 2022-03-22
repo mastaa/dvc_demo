@@ -1,1 +1,4 @@
-
+[core]
+    remote = master
+['remote "master"']
+    url = C:/dev/__files/master
