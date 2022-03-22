@@ -21,5 +21,5 @@ def export_table_db(host: str, port: str, db_name: str, user: str, password: str
 
 
 if __name__ == "__main__":
-    export_table_db('localhost', '5432', 'postgres', 'postgres', 'postgres', 'dvc_db', 'price', '\u007F', 'dump.csv')
+    export_table_db('localhost', '5432', 'postgres', 'postgres', 'postgres', 'dvc_db', 'price', '\u007F', 'KP_CENA_MOD_APR.DAT')
 
