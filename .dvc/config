@@ -1,4 +1,6 @@
 [core]
-    remote = master
+    remote = dev
 ['remote "master"']
     url = C:/dev/__files/master
+['remote "dev"']
+    url = C:/dev/__files/dev
